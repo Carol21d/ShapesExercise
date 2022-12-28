@@ -1,0 +1,95 @@
+.header {
+  height: 98%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header .header-title {
+  display: flex;
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Inter";
+  top: 20px;
+  font-style: normal;
+}
+.header .header-figures {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 50px;
+}
+.header .header-figures .figures-triangle {
+  width: 0;
+  height: 0;
+  border-right: 50px solid transparent;
+  border-top: 50px solid transparent;
+  border-left: 50px solid transparent;
+  border-bottom: 80px solid #ccff00;
+}
+.header .header-figures .figures-triangle:hover {
+  cursor: pointer;
+  width: 0;
+  height: 0;
+  border-right: 50px solid transparent;
+  border-top: 50px solid transparent;
+  border-left: 50px solid transparent;
+  border-bottom: 80px solid #145aee;
+  transform: translateY(-20px);
+}
+.header .header-figures .figures-square {
+  width: 0;
+  height: 0;
+  border-right: 40px solid #ff0000;
+  border-top: 40px solid #ff0000;
+  border-left: 40px solid #ff0000;
+  border-bottom: 40px solid #ff0000;
+}
+.header .header-figures .figures-square:hover {
+  width: 0;
+  height: 0;
+  border-right: 40px solid #a414ee;
+  border-top: 40px solid #a414ee;
+  border-left: 40px solid #a414ee;
+  border-bottom: 40px solid #a414ee;
+  transform: translateY(-20px);
+}
+.header .header-figures .figures-circle {
+  width: 80px;
+  height: 80px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #5200ff;
+}
+.header .header-figures .figures-circle:hover {
+  height: 80px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #14eebb;
+  transform: translateY(-20px);
+}
+.header button {
+  border: none;
+  border-radius: 10%;
+  margin-top: 40px;
+  margin-left: 20px;
+  background-color: #c4c4c4;
+  height: 30px;
+  width: 60px;
+}
+
+body {
+  width: 98%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  position: absolute;
+}
+
+/*# sourceMappingURL=styles.css.map */
