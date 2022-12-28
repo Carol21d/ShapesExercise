@@ -5,11 +5,11 @@
 4. Haciendo click en el botón "Reset" las figuras geométricas volverán a ser visibles.
 
 ## Lenguajes usados:
---HTML
---CSS (SASS)
---Javascript
+- HTML
+- CSS (SASS)
+- Javascript
 
 ## Herramientas utilizadas:
---Figma
---Visual Studio Code
---GitHub
+- Figma
+- Visual Studio Code
+- GitHub
