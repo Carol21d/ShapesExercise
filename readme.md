@@ -4,12 +4,12 @@
 3. Utilizando Javascript. Haciendo click de ratón sobre las figuras geométricas esas deben desaparecer
 4. Haciendo click en el botón "Reset" las figuras geométricas volverán a ser visibles.
 
-## Lenguajes usados:
+##Lenguajes usados:
 -HTML
 -CSS (SASS)
 -Javascript
 
-## Herramientas utilizadas:
+##Herramientas utilizadas:
 -Figma
 -Visual Studio Code
 -GitHub
