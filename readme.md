@@ -7,7 +7,11 @@ También tendrá que tener los siguientes requisitos:
 3. Utilizando Javascript. Haciendo click de ratón sobre las figuras geométricas esas deben desaparecer
 4. Haciendo click en el botón "Reset" las figuras geométricas volverán a ser visibles.
 
-## Lenguajes usados:
+Proyecto final:
+
+## <img width="1045" alt="shapesexercise" src="https://user-images.githubusercontent.com/117730103/209838090-3e0c84cb-bd3e-46ca-9d64-67985978cf34.png">
+
+Lenguajes usados:
 - HTML
 - CSS (SASS)
 - Javascript
