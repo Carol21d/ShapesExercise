@@ -1,49 +1,56 @@
+document.getElementById("hideElementTriangle").onclick = function () {
+  document.getElementById("hideElementTriangle").style.visibility = "hidden";
+};
 
-// function hideFigures() {
-//     let figures = document.getElementById("hideElementTriangle");
-//     if (figures.style.display === "none") {
-//         figures.style.display = "block";
-        
-//     }else{
-//         figures.style.display = "none";
-//     }
-    
-// }
+document.getElementById("hideElementSquare").onclick = function () {
+  document.getElementById("hideElementSquare").style.visibility = "hidden";
+};
 
+document.getElementById("hideElementCircle").onclick = function () {
+  document.getElementById("hideElementCircle").style.visibility = "hidden";
+};
 
+const elemenTriangle = document.querySelector('.figures-triangle');
+const elemenSquare = document.querySelector('.figures-square');
+const elemenCircle = document.querySelector('.figures-circle');
 
-
- function hideFigures() {
-    const elementT =document.querySelector("#hideElementTriangle");
-    elementT.style.visibility ="hidden";
-        
-     }
-
-     $("#figuresHideShow").click(function(e){
-
-        $('#figuresHideShow').css('display','block');
-        if (condition) {
-            
-        } else {
-            
-        }
-     });
+function showAllFigures() {
+ showTriangle()
+ showSquare()
+ showCircle()
+}
 
 
+function showTriangle() {
+    if (elemenTriangle.style.visibility === 'hidden') {
+      elemenTriangle.style.visibility = 'visible';
+     
+    } else {
+      elemenTriangle.style.visibility = 'hidden';
+     
+    }
+  }
+
+function showSquare() {
+    if (elemenSquare.style.visibility === 'hidden') {
+      elemenSquare.style.visibility = 'visible';
+     
+    } else {
+      elemenSquare.style.visibility = 'hidden';
+     
+    }
+  }
+
+
+  function showCircle() {
+    if (elemenCircle.style.visibility === 'hidden') {
+      elemenCircle.style.visibility = 'visible';
+     
+    } else {
+      elemenCircle.style.visibility = 'hidden';
+     
+    }
+  }
 
 
 
-   
-
-
-// document.getElementById("hideElementTriangle").onclick = function(){
-//     document.getElementById("hideElementTriangle").style.display = "none";
-// }
-
-// document.getElementById("hideElementSquare").onclick = function(){
-//     document.getElementById("hideElementSquare").style.display = "none";
-// }
-
-// document.getElementById("hideElementCircle").onclick = function(){
-//     document.getElementById("hideElementCircle").style.display = "none";
-// }
