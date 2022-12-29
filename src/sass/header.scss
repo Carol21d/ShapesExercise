@@ -16,6 +16,7 @@
     top: 20px;
     font-style: normal;
   }
+
   .header-figures {
     display: flex;
     justify-content: center;
@@ -40,7 +41,6 @@
         border-bottom: 80px solid #145aee;
         transform: translateY(-20px);
       }
-      
     }
 
     .figures-square {
@@ -58,7 +58,7 @@
         border-top: 40px solid #a414ee;
         border-left: 40px solid #a414ee;
         border-bottom: 40px solid #a414ee;
-       transform: translateY(-20px);
+        transform: translateY(-20px);
       }
     }
 
